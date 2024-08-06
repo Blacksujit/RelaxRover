@@ -1,7 +1,7 @@
 import openai
 
 # Set your OpenAI API key
-openai.api_key = 'sk-kt1qEuNE3lVQ3hfOmzRJ2YeKDBSEGqvfHkVbZZSsPeT3BlbkFJN0DUX_ozYe8ctXf8ri5Lz_0bZ6uZeXQXqMPycNfMoA'
+openai.api_key = 'OPEN_AI_API_KEY'
 
 def get_chatgpt_response(query):
     try:

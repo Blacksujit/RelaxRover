@@ -4,7 +4,7 @@ import transformers
 import torch
 from transformers import pipeline
 # Log in to Hugging Face
-login(token='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')  # Replace with your actual token
+login(token='LOGIN_KEY')  # Replace with your actual token
 
 
  
