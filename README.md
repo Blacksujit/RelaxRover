@@ -63,6 +63,7 @@ https://github.com/user-attachments/assets/5341dd16-e591-4120-b1d7-0cddd056a56c
 - **Conversational Support:** Engage in conversations focused on stress relief and mental well-being.
 - **AI-Powered Responses:** Leverage advanced NLP models for insightful and empathetic replies.
 - **User-Friendly Interface:** A simple web interface for easy interaction with the bot.
+- **Log Your Mood:** You can also log your mood. it will displayed as an level of feelings you are having on the anxiety bar 
 
 ## Table of Contents
 
