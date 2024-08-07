@@ -4,7 +4,7 @@
 
 **CalmCraft** 
 
-is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
+CalmCraft is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
 
 
 # Folder Structure:
@@ -30,7 +30,29 @@ project_root/
 └── venv/ (your virtual environment)
 |___   .env
 
+
 ```
+
+## Working Video and images of Web app:
+
+<video controls src="botvid.mp4" title="Title"></video>
+
+## Images:
+
+![alt text](image.png)
+
+
+![alt text](image1.png)
+
+## Custom code function and bot logic added by me for mood:
+
+
+![alt text](code_block.png)
+
+
+
+![alt text](botlogic.png)
+
 
 ## Features
 
@@ -61,7 +83,7 @@ project_root/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/calmcraft.git
+   git clone https://github.com/Blacksujit/RelaxRover_Anxiety_Relif_Bot
    ```
 
 2. **Create a virtual environment and activate it:**
@@ -84,8 +106,6 @@ pip install -r requirements.txt
 
 4. **Set up environment variables:**
 
-Create a `.env ` file in the root directory and add your OpenAI API key:
-
  
 `OPEN_AI_API_KEY` = 'your_open_ai_api_key'
 
@@ -99,19 +119,32 @@ python backend/app.py
 
 ```
 
+# **API Reference**:
+
+> get this credentials from specific platforms.
+
+Open_ai_api_key = https://platform.openai.com/settings/profile?tab=api-keys
+
+login_key_from_hugging_face = https://huggingface.co/settings/tokens
+
+Mistral_api_Key = https://chat.mistral.ai/chat/f49eac86-1d65-4adb-8d8e-c242941c5d9b
+
+
 # **Contributing**:
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements or fixes. For major changes, please open an issue to discuss your ideas first.
 
 Fork the repository.
 
-Create a new branch `(git checkout -b feature-branch).`
+Create a `.env ` file in the root directory and add your mistral API and other api key:
 
-Commit your changes `(git commit -am 'Add new feature').`
+1.) Create a new branch `(git checkout -b feature-branch).`
 
-Push to the branch` (git push origin feature-branch).`
+2.) Commit your changes `(git commit -am 'Add new feature').`
 
-Create a new Pull Request.
+3.) Push to the branch` (git push origin feature-branch).`
+
+4.) Create a new Pull Request.
 
 
 # **License**:
