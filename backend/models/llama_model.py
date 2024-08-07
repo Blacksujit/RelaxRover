@@ -1,33 +1,38 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from huggingface_hub import login
-import transformers
-import torch
-from transformers import pipeline
-# Log in to Hugging Face
-login(token='LOGIN_KEY')  # Replace with your actual token
+# from huggingface_hub import InferenceClient
 
+# # Initialize the client
+# client = InferenceClient(
+#     "meta-llama/Meta-Llama-3.1-8B-Instruct",
+#     token="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",
+# )
 
- 
+# def get_llama_response(user_message):
+#     """
+#     Get a response from the LLaMA model for a given user message.
+#     """
+#     prompt = [{"role": "user", "content": user_message}]
+    
+#     response = ""
+#     try:
+#         # Fetch response from model
+#         for message in client.chat_completion(
+#             messages=prompt,
+#             max_tokens=500,
+#             stream=False  # Set to True if you want streaming responses
+#         ):
+#             response += message.choices[0].content  # Adjust based on actual response structure
+        
+#         # Add additional features based on response
+#         if "anxiety" in user_message.lower():
+#             additional_message = "Here are some breathing exercises you can try..."
+#             response += "\n" + additional_message
+        
+#         if "motivation" in user_message.lower():
+#             motivational_quote = "Believe in yourself! Every day is a new opportunity."
+#             response += "\n" + motivational_quote
 
-pipe = pipeline("text-generation", model="meta-llama/Meta-Llama-3.1-8B")
- 
-# from transformers import AutoTokenizer, AutoModelForCausalLM
-model_id = "meta-llama/Meta-Llama-3.1-8B"
+#     except Exception as e:
+#         print(f"Error fetching response: {e}")
+#         response = "Sorry, I encountered an error processing your request."
 
-pipeline = transformers.pipeline(
-    "text-generation", model=model_id, model_kwargs={"torch_dtype": torch.bfloat16}, device_map="auto"
-)
-
-pipeline("Hey how are you doing today?")
-
-
-# Load the LLaMA model and tokenizer
-# model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
-tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=True)
-model = AutoModelForCausalLM.from_pretrained(model_id, use_auth_token=True)
-
-def get_llama_response(query):
-    inputs = tokenizer(query, return_tensors="pt")
-    outputs = model.generate(inputs['input_ids'], max_length=100)
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    return response
+#     return response
