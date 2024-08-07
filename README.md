@@ -4,7 +4,7 @@
 
 **CalmCraft** 
 
-CalmCraft is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
+CalmCraft is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest Mistral model and natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
 
 
 # Folder Structure:
@@ -35,7 +35,11 @@ project_root/
 
 ## Working Video and images of Web app:
 
-<video controls src="botvid.mp4" title="Title"></video>
+
+
+https://github.com/user-attachments/assets/5341dd16-e591-4120-b1d7-0cddd056a56c
+
+
 
 ## Images:
 
@@ -76,7 +80,7 @@ project_root/
 
 - Python 3.8+
 - Pip (Python package manager)
-- A valid OpenAI API key
+- A valid Mistral API Key 
 
 ### Setup
 
@@ -107,7 +111,7 @@ pip install -r requirements.txt
 4. **Set up environment variables:**
 
  
-`OPEN_AI_API_KEY` = 'your_open_ai_api_key'
+`MISTRAL_API_KEY` = 'your_open_ai_api_key'
 
 `LOGIN_KEY` = 'your_login_token_from_hugging_face'
 
@@ -155,5 +159,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 For any inquiries or issues, please reach out to:
 
 Author: Sujit Nirmal
+
 Email: nirmalsujit981@gmail.com
+
 GitHub: @Blacksujit
