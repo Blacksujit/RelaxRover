@@ -1,9 +1,15 @@
 # from huggingface_hub import InferenceClient
+# from dotenv import load_dotenv
+# import os
+
+# load_dotenv()
+
+
 
 # # Initialize the client
 # client = InferenceClient(
 #     "meta-llama/Meta-Llama-3.1-8B-Instruct",
-#     token="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",
+    # token=os.getenv('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'),
 # )
 
 # def get_llama_response(user_message):

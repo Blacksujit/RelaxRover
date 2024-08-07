@@ -1,8 +1,13 @@
 # import openai
+# from dotenv import load_dotenv
+# import os
 
+
+# load_dotenv()
 
 # # Set your OpenAI API key
-# openai.api_key = 'sk-JMzSZeIvu0Nguc6TJvMFYkgsf-MgBPR14PeT0Vje5JT3BlbkFJ9dtKA2XBrFx60OUZZj0rHXmIhbHHcsYyjemwkOsk0A'
+# openai_api_key = os.getenv('OPENAI_API_KEY')
+
 
 # def get_chatgpt_response(query):
 #     try:

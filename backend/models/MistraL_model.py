@@ -3,6 +3,12 @@ from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 from ratelimit import limits, sleep_and_retry
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # # Initialize Mistral client
 # api_key = os.getenv("GtcvBNAZojjIj7tFD4eOe2Sy0QQuSDON")
@@ -12,13 +18,13 @@ import time
 
 
 # Initialize Mistral client
-api_key =  'GtcvBNAZojjIj7tFD4eOe2Sy0QQuSDON'  # Get API key from environment variable
+mistral_api_key = os.getenv('MISTRAL_API_KEY')   # Get API key from environment variable
 
-if not api_key:
+if not mistral_api_key:
     raise ValueError("API key is missing. Set the MISTRAL_API_KEY environment variable.")
 
 model = "mistral-large-latest"
-client = MistralClient(api_key=api_key)
+client = MistralClient(api_key=mistral_api_key)
 
 # Track the last request time
 last_request_time = 0
@@ -43,7 +49,12 @@ def get_mistral_response(prompt):
             model=model,
             messages=messages,
         )
-        last_request_time = time.time()  # Update the last request time
-        return chat_response.choices[0].message.content
+        response_content = chat_response.choices[0].message.content
+        
+        # Add specific logic for stress and anxiety relief
+        if "stress" in prompt.lower() or "anxiety" in prompt.lower():
+            response_content += "\nHere are some tips to manage stress and anxiety:\n- Practice deep breathing exercises.\n- Try mindfulness or meditation.\n- Engage in physical activity like walking or yoga.\n- Talk to a mental health professional if needed."
+
+        return response_content
     except Exception as e:
         return f"Error: {str(e)}"
