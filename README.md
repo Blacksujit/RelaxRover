@@ -153,7 +153,7 @@ Create a `.env ` file in the root directory and add your mistral API and other a
 
 
 # **License**:
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.  
 
 # **Contact**:
 
