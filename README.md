@@ -112,7 +112,7 @@ pip install -r requirements.txt
 4. **Set up environment variables:**
 
  
-`MISTRAL_API_KEY` = 'your_open_ai_api_key'
+`MISTRAL_API_KEY` = 'your_mistral_ai_api_key'
 
 `LOGIN_KEY` = 'your_login_token_from_hugging_face'
 
