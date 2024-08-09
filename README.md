@@ -27,7 +27,7 @@ project_root/
 │   ├── app.py
 │   └── bot_logic.py
 │
-└── venv/ (your virtual environment)
+└── venv/ (virtual environment)
 |___   .env
 
 
