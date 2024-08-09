@@ -2,9 +2,9 @@
 
 ## Overview
 
-**CalmCraft** 
+**RelaxRover** 
 
-CalmCraft is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest Mistral model and natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
+RelaxRover is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest Mistral model and natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
 
 
 # Folder Structure:
