@@ -7,6 +7,17 @@
 RelaxRover is a chatbot designed to provide stress and anxiety relief through conversational interactions. It utilizes the latest Mistral model and natural language processing (NLP) models to offer supportive and calming responses to users seeking help.
 
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+
 # Folder Structure:
 
 ```
@@ -65,15 +76,6 @@ https://github.com/user-attachments/assets/5341dd16-e591-4120-b1d7-0cddd056a56c
 - **User-Friendly Interface:** A simple web interface for easy interaction with the bot.
 - **Log Your Mood:** You can also log your mood. it will displayed as an level of feelings you are having on the anxiety bar 
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
