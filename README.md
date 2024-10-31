@@ -165,4 +165,4 @@ Author: Sujit Nirmal
 
 Email: nirmalsujit981@gmail.com
 
-GitHub: @Blacksujit
+GitHub: @blacksujit
