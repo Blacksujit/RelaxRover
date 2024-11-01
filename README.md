@@ -1,6 +1,6 @@
 # Stress and Anxiety Relief Bot
 
-## Overview
+## Overview:
 
 **RelaxRover** 
 
