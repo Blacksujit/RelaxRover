@@ -11,7 +11,7 @@ load_dotenv()
 # openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # # Initialize Mistral client
-# api_key = os.getenv("GtcvBNAZojjIj7tFD4eOe2Sy0QQuSDON")
+# api_key = os.getenv(" ")
 # model = "mistral-large-latest"
 
 # client = MistralClient(api_key=api_key)
