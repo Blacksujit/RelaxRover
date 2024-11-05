@@ -8,7 +8,7 @@ RelaxRover is a chatbot designed to provide stress and anxiety relief through co
 
 
 
-## Table of Contents:
+## Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
