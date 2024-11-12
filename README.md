@@ -1,5 +1,34 @@
 # Relax Rover
 
+
+## Problem statement:
+
+
+[link to Quest](https://quira.sh/quests/creator/submissions?questId=16)
+
+```
+
+Main track:
+
+If you want your submission to be eligible for a prize, your app must use at least one of the following APIs
+
+ChatGPT
+Mistral
+Llama
+Anthropic
+
+🧢 A sticker sheet will be sent to the creators of the first 100 valid submissions. Also, a "Quira Creator" hat will be sent to the 5 creators that... we'll keep this rule secret until the end of the Quest!
+
+To claim a prize, make sure you follow the rules!
+
+The content you submit to the quest must be original.
+You are allowed to generate code with LLMs and to use StackOverflow, but the app/repo idea must be yours and yours only. If we detect plagiarism from other repo or user, your submission will be marked and you won't be eligible for a prize.
+Your project must have a README and must clearly explain what the project does and how someone can run it or install it.
+Team submissions are not supported in this quest.
+You can only submit one repo. If you make a mistake, you have to remove the repo and upload a new one.
+You can submit repositories used in a previous quest, provided they implement a new feature. The new feature should be described in the comments.
+
+```
 ## Overview:
 
 ## **Stress and Anxiety Relif Bot** :
